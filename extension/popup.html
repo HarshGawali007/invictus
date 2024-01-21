@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Video Summarizer</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' http://127.0.0.1:5000/; object-src 'self'">
+
+    <style>
+        h1 {
+            text-align: centre;
+        }
+
+        body {
+            width: max-content;
+            max-width: 800px;
+        }
+
+        button {
+            background-color: red;
+            color: aliceblue;
+            border-radius: 8px;
+            width: max-content;
+            height: max-content;
+            padding: 10px;
+            font-size: large;
+            margin: auto;
+            display: block;
+            border-color: coral;
+        }
+
+        button[disabled] {
+            background-color: lightcoral;
+            color: aliceblue;
+            border-radius: 8px;
+            width: max-content;
+            height: max-content;
+            padding: 10px;
+            font-size: large;
+            margin: auto;
+            display: block;
+            border-color: lightpink;
+        }
+
+        p {
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Youtube Video Transcript Summarizer</h1>
+    <button id="summarise" type="button">Summarise</button>
+    <br />
+    <p id="output"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
