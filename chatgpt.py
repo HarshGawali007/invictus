@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 
 #install this library first  'pip install openai==0.28'
 
